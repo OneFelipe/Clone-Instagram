@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-page {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 55%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.instagram-phone img {
+    height: 110%;
+}
+
+.continue {
+    width: 50%;
+    min-height: 34rem;
+}
+
+.instagram-login img {
+    width: 50%;
+    padding: 30px;
+}
+
+.instagram-login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid rgb(135, 135, 135);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.instagram-login form {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.login {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.enter {
+    height: 35px;
+    background-color: rgba(124, 172, 255, 0.593);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(135, 135, 135);
+}
+
+.facebook-login img {
+    padding: 0;
+    width: 15px;
+}
+
+.facebook-login p {
+    color: rgb(25, 0, 105);
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.face-login-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.recovery {
+    padding-top: 25px;
+}
+
+.recovery p {
+    font-size: 12px;
+}
+
+.group-signup {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(135, 135, 135);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.group-signup span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    padding-left: 2px;
+    color: rgb(124, 172, 255);
+    font-weight: bold;
+}
+
+.group-download {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.download {
+    margin: 15px;
+}
+
+.download img {
+    width: 125px;
+}
